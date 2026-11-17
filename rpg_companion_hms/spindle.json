@@ -1,0 +1,21 @@
+{
+  "version": "2.9.0",
+  "name": "RPG Companion HMS Edition 2.9 beta",
+  "identifier": "rpg_companion_hms",
+  "author": "TenderTriper (Perch) — HMS Edition. Based on RPG Companion by Marinara. Minds, agendas, who knows what, Chekhov’s gun and building maps from FrankenSIM by Wireless (Ryah); floor plans after the room atlas of Ryah | Wireless; TFDY by Pyropia.",
+  "github": "https://github.com/TenderTriper/rpg-companion-hms",
+  "homepage": "https://github.com/TenderTriper/rpg-companion-hms",
+  "description": "The side panel for the HMS Living World bots (Re:Zero, Mushoku Tensei, Classroom of the Elite, Overlord, Harry Potter, SCP-4666), and for Undertale, Dark Souls and Skyrim bots. It can live in the drawer or in a wide window with a menu. It reads the bot's WORLD STATE HUD instead of competing with it and shows it as cards: you, the people around you, quests, the phone, the map, the atlas and floor plans of the rooms (in 2D or 3D), fights, the Chronicle and more. Minds (from FrankenSIM): how each person feels inside and toward you and each other, what they are doing, what they know, and the details the story planted; the extension keeps the numbers. Statuses show who is asleep, out cold, dead, tied up or missing, and your party members get a body chart of their own. Star someone and they live their own life off screen; each person keeps a history with you and the others, and their milestones. Letters carry their writer's seal; exam papers have a mark out of 100; contracts keep their terms. Gates: for cards made with the Character Creation Kit, it keeps which phase of their gated progression each character is in, and reminds the story. Body & health: a body, not a health bar. An X-ray body map, what you can still do, and hard locks a broken body sets (two broken legs, no jumping) that no pill or power lifts; it reads the bot's own wounds, or keeps them where the bot does not. Pick how much the panel tracks: None, Potato, Light, Medium, Heavy or Max (the same steps as the preset's Mode dial). It shows how alive you are (vitality and a death clock), the main arteries, a male or female body chart, cold and heat, sickness and poison, and prosthetics. It follows the shape you are in (a dragon in human form, an Oni's horn out or hidden), race evolution, organs and the race's own (a Gate, the horns, a core), sanity, and your height, weight and measurements. The Race card draws dragons, beasts, serpents and other bodies not built like a person. The Magic card lists every spell the bot's lorebook describes and what your HUD lets you use. Letters, notes, book pages and phone texts in the story are drawn as the real thing, and kept to read again. It builds a new game from the bot's own catalog, answers OOC questions with the bot's guide, and draws emoji and dialogue colours. Made to work with the HMS Reporter beta preset. The guide is in the panel (Guide) and in GUIDE.md.",
+  "permissions": [
+    "interceptor",
+    "generation",
+    "chat_mutation",
+    "image_gen",
+    "world_books",
+    "memories"
+  ],
+  "entry_backend": "dist/backend.js",
+  "entry_frontend": "dist/frontend.js",
+  "minimum_lumiverse_version": "1.2.0",
+  "interceptorTimeoutMs": 20000
+}
